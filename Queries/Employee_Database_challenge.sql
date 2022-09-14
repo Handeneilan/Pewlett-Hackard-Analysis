@@ -34,6 +34,8 @@ ORDER BY COUNT(title) DESC;
 
 SELECT * FROM retiring_titles
 
+--Deliverable 2
+
 SELECT DISTINCT ON(e.emp_no) e.emp_no, 
     e.first_name, 
     e.last_name, 
